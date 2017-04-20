@@ -1,0 +1,25 @@
+//
+//  Gobang.pch
+//  GoBangGraduationProject
+//
+//  Created by Summer on 17/4/19.
+//  Copyright © 2017年 lonie. All rights reserved.
+//
+
+
+#ifndef Gobang_pch
+#define Gobang_pch
+
+/**
+ *  release不打印
+ */
+#if (!defined(DEBUG))
+#define NSLog(...)
+#endif
+
+
+#define SCREEN_H [UIScreen mainScreen].bounds.size.height
+#define SCREEN_W [UIScreen mainScreen].bounds.size.width
+#import "Config.h"
+
+#endif /* Gobang_pch */
